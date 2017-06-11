@@ -1,0 +1,34 @@
+﻿Build started 12.12.2016 02:10:28.
+     1>Project "C:\Users\Seyfullah\Documents\Visual Studio 2010\Projects\Bulanik Mantik Arac Takip\Arac_Gosterge_Simulasyonu.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Arac_Gosterge_Simulasyonu.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Arac_Gosterge_Simulasyonu.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt araba.cpp araba2.cpp main.cpp
+         main.cpp
+     1>c:\users\seyfullah\documents\visual studio 2010\projects\bulanik mantik arac takip\araba2.cpp(157): warning C4101: 'index' : unreferenced local variable
+     1>c:\users\seyfullah\documents\visual studio 2010\projects\bulanik mantik arac takip\main.cpp(89): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\seyfullah\documents\visual studio 2010\projects\bulanik mantik arac takip\main.cpp(95): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+         araba2.cpp
+     1>c:\users\seyfullah\documents\visual studio 2010\projects\bulanik mantik arac takip\araba2.cpp(157): warning C4101: 'index' : unreferenced local variable
+         araba.cpp
+         Generating Code...
+     1>c:\users\seyfullah\documents\visual studio 2010\projects\bulanik mantik arac takip\araba.cpp(294): warning C4715: 'Araba::disli_dondur' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Seyfullah\Documents\Visual Studio 2010\Projects\Bulanik Mantik Arac Takip\Debug\Arac_Gosterge_Simulasyonu.exe" /NOLOGO alleg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Arac_Gosterge_Simulasyonu.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Seyfullah\Documents\Visual Studio 2010\Projects\Bulanik Mantik Arac Takip\Debug\Arac_Gosterge_Simulasyonu.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Seyfullah\Documents\Visual Studio 2010\Projects\Bulanik Mantik Arac Takip\Debug\Arac_Gosterge_Simulasyonu.lib" /MACHINE:X86 Debug\araba.obj
+         Debug\araba2.obj
+         Debug\main.obj
+         Arac_Gosterge_Simulasyonu.vcxproj -> C:\Users\Seyfullah\Documents\Visual Studio 2010\Projects\Bulanik Mantik Arac Takip\Debug\Arac_Gosterge_Simulasyonu.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Seyfullah\Documents\Visual Studio 2010\Projects\Bulanik Mantik Arac Takip\Debug\Arac_Gosterge_Simulasyonu.exe;#1" /manifest Debug\Arac_Gosterge_Simulasyonu.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Arac_Gosterge_Simulasyonu.unsuccessfulbuild".
+         Touching "Debug\Arac_Gosterge_Simulasyonu.lastbuildstate".
+     1>Done Building Project "C:\Users\Seyfullah\Documents\Visual Studio 2010\Projects\Bulanik Mantik Arac Takip\Arac_Gosterge_Simulasyonu.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.46
